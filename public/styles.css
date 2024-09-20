@@ -1,0 +1,16 @@
+#root::before {
+    content: '';
+    background-image: url(bg.jpg);
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(2px);
+    }
+
+body{
+    color: #f0f8ff;
+    z-index: 0;
+}
